@@ -6,7 +6,7 @@ with open("file", "r") as f:
 characters = 0
 words = 1 # because first or last word isnt whitespaces
 for char in txt:
-    if char is " ":
+    if char == " ":
         words+=1
     else:
         characters+=1
