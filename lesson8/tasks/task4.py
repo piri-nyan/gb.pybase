@@ -11,18 +11,18 @@ class Equipment():
         self.cost = cost
 
 class Printer(Equipment):
-    def __init__(self, serial, weight, cost, colored) -> None:
-        super().__init__(serial, weight, cost)
+    def __init__(self, serial, amount, cost, colored) -> None:
+        super().__init__(serial, amount, cost)
         self.colored = colored
 
 class Scanner(Equipment):
-    def __init__(self, serial, weight, cost, dpi) -> None:
-        super().__init__(serial, weight, cost)
+    def __init__(self, serial, amount, cost, dpi) -> None:
+        super().__init__(serial, amount, cost)
         self.dpi = dpi
 
 class Xerox(Equipment):
-    def __init__(self, serial, weight, cost, ppm) -> None:
-        super().__init__(serial, weight, cost)
+    def __init__(self, serial, amount, cost, ppm) -> None:
+        super().__init__(serial, amount, cost)
         self.ppm = ppm
 
 
